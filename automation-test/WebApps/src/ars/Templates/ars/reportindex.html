@@ -1,0 +1,8 @@
+
+
+{% autoescape off %}{{ report }}{% endautoescape %}
+{% for key, value in js.items%}
+<script type="text/javascript"> {% autoescape off %}{{value}}{% endautoescape %}</script>
+{% endfor %}
+
+<script>{% autoescape off %}{{ xml }}{% endautoescape %}</script>

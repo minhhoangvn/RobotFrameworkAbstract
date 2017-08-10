@@ -1,0 +1,3 @@
+{% extends "base.html" %} {% load staticfiles %} {% load render_bundle from webpack_loader%} {% block main %}
+<div id="login"/>
+{% render_bundle 'LoginPage' %} {% render_bundle 'vendors' %} {% endblock %}

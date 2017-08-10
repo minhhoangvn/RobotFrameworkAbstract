@@ -1,0 +1,15 @@
+export const ActionTypes = {
+    CHANGE_FORM: 'CHANGE_FORM',
+    SENDING_REQUEST: 'SENDING_REQUEST',
+    CLEAR_ERROR: 'CLEAR_ERROR',
+    INC: 'INC',
+    DEC: 'DEC',
+    SET_TEXT: 'SET_TEXT'
+}
+export const FormActionTypes = {
+    SET_USERNAME: "SET_USERNAME",
+    SET_PASSWORD: "SET_PASSWORD",
+    CHECK_SAVE: "CHECK_SAVE",
+    CHANGE_FORM: "CHANGE_FORM",
+    GET_SEESION: "GET_SEESION"
+}

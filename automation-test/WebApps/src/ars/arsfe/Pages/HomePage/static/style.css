@@ -1,0 +1,26 @@
+.collapsed-icon{
+    padding: 0px 5px ;
+    font-size: 20px ;
+    color: #1fe697;
+}
+
+.slider-bar-icon{
+    padding: 0px 5px ;
+    font-size: 20px ;
+}
+
+.slider-bar-link{
+    color: #1fe697;
+    margin-left:5px;
+    padding: 5px 0px;
+}
+.header-title{
+    padding: 10px 0px;
+    color:#1fe697;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.content-section{
+    height:100% ;
+}

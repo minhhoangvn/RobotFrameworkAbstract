@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load render_bundle from webpack_loader%}
+{% block main %}
+<div class="row">
+<div id="login" class="col-md-12 col-xs-12"/>
+</div>
+{% render_bundle 'LoginPage' %}
+{% render_bundle 'vendors' %}
+{% endblock %}
