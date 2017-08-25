@@ -10,7 +10,7 @@ class DataBaseHelper(object):
 
     # TODO Reduce number of paramater in DatabaseHelper Contructor, passing TestRunner Class for get all DB config
     def __init__(self, db_name, db_port, sql_source_scripts_path=None, user="apps", password="apps",
-                 db_host="db.sc.esilicon.com",
+                 db_host="localhost",
                  db_type="cx_Oracle"):
         self.__is_valid_database_type(db_type)
         self._builtin = BuiltIn()
